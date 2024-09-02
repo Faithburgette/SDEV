@@ -1,1 +1,10 @@
-
+start
+  input modelName
+  input heightImches
+  input widthInches
+  input depthInches
+  totalArea = heightInches * widthInches * depthInches
+  cubicCapacity = totalArea / 1728
+  output modelName
+  output cubicCapacity
+stop
