@@ -1,0 +1,11 @@
+start
+  define accountBalance
+  accountBalance = input accountBalance
+  define overdrawnAmount
+  input timesOverdrawn
+  overdrawnAmount = input timesOverdrawn / 100 - 5
+  newBalance = accountBalance - overdrawnAmount
+  output overdrawnAmount 
+  output newBalance
+  output display " Thanks for using this program "
+stop
